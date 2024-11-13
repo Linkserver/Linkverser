@@ -1,5 +1,4 @@
 # L-GAMES
-<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -75,7 +74,6 @@
                 <li><strong>need for speed most wanted</strong> -contraseña -elenemigos.com.</li>
             </ul>
             <img src="need for speed most wanted.jpeg" alt="Juegos Favoritos">
-            <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
