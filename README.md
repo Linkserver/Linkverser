@@ -67,9 +67,9 @@
     </nav>
     <main>
         <section id="favorites">
-            <h2>Mis Juegos Favoritos</h2>
+            <h2>juegos del enemigos sin anuncios</h2>
             <ul>
-                <li><strong>The Legend of Zelda: Breath of the Wild</strong> - Un mundo abierto lleno de aventuras.</li>
+                <li><strong>halo: elprimero </strong> - Un mundo de accion y diversion en el online.</li>
                 <li><strong>The Witcher 3</strong> - Un RPG épico con una narrativa impresionante.</li>
                 <li><strong>need for speed most wanted</strong> -contraseña -elenemigos.com.</li>
             </ul>
