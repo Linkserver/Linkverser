@@ -78,6 +78,43 @@
             width: 100%;
             height: auto;
         }
+        #comentarios {
+            background: rgba(255, 255, 255, 0.6); /* Fondo blanco con transparencia */
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        #comentarios h2 {
+            color: #2c3e50;
+        }
+
+        #comentarios label {
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+
+        #comentarios input, #comentarios textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        #comentarios button {
+            padding: 10px 20px;
+            background-color: #e74c3c; /* Color rojo */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+        }
+
+        #comentarios button:hover {
+            background-color: #c0392b; /* Color rojo más oscuro */
+        }
     </style>
 </head>
 <body>
@@ -89,10 +126,11 @@
         <a href="#projects">Proyectos de Videojuegos</a>
         <a href="#tutorial">Tutorial de Descarga</a>
         <a href="#contact">Contacto</a>
+        <a href="#comentarios">Comentarios</a>
     </nav>
     <main>
         <section id="favorites">
-            <h2>Juegos gratis para que no pages xd</h2>
+            <h2>Juegos gratis para que no pagues xd</h2>
             <ul>
                 <img src="Halo.jpeg" alt="Halo: Combat Evolved">
                 <li><strong>Halo: Combat Evolved</strong> - Un mundo de acción y diversión en el online.</li>
@@ -128,9 +166,9 @@
             <video controls>
                 <source src="tutohalo.mp4" type="video/mp4">
             </video>
-             </section>
+        </section>
         <section id="video">
-            <h2>Video Tutorial de need for speed</h2>
+            <h2>Video Tutorial de Need for Speed</h2>
             <p>A continuación, te dejamos un video tutorial sobre cómo instalar y jugar los videojuegos.</p>
             <video controls>
                 <source src="tutoneed.mp4" type="video/mp4">
@@ -139,6 +177,19 @@
         <section id="contact">
             <h2>Contacto</h2>
             <p>Puedes contactarme a través de mi correo electrónico: moralesjimy29@gmail.com</p>
+        </section>
+        <section id="comentarios">
+            <h2>Deja tu Comentario para agregar juegos o aplicacion</h2>
+            <p>es para apoyar ese proyecto. ¡Déjanos un comentario!</p>
+            <form action="https://formspree.io/f/xpwzrkdr" method="POST">
+                <label for="name">Nombre:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="comment">Comentario:</label><br>
+                <textarea id="comment" name="comment" rows="4" cols="50" required></textarea><br><br>
+
+                <button type="submit">Enviar Comentario para ayudar causa</button>
+            </form>
         </section>
     </main>
     <footer>
