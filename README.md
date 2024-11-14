@@ -93,7 +93,7 @@
     </nav>
     <main>
         <section id="favorites">
-            <h2>Juegos del enemigos sin anuncios</h2>
+            <h2>Juegos gratis para que no pages xd</h2>
             <ul>
                 <img src="Halo.jpeg" alt="Halo: Combat Evolved">
                 <li><strong>Halo: Combat Evolved</strong> - Un mundo de acción y diversión en el online.</li>
