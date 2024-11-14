@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -10,20 +11,20 @@
             padding: 0;
             background: url('fondo.jpeg') no-repeat center center fixed; 
             background-size: cover;
-            color: #333; /* Color oscuro para el texto */
+            color: #333;
         }
         header {
-            background: rgba(44, 62, 80, 0.8); /* Fondo oscuro con transparencia */
+            background: rgba(44, 62, 80, 0.8);
             color: white;
             padding: 20px 0;
             text-align: center;
         }
         nav {
-            background: rgba(52, 73, 94, 0.8); /* Fondo oscuro con transparencia */
+            background: rgba(52, 73, 94, 0.8);
             padding: 10px;
         }
         nav a {
-            color: #f39c12; /* Color amarillo brillante para los enlaces */
+            color: #f39c12;
             margin: 0 15px;
             text-decoration: none;
         }
@@ -36,84 +37,41 @@
             margin: auto;
         }
         section {
-            background: rgba(255, 255, 255, 0.6); /* Fondo blanco con transparencia */
+            background: rgba(255, 255, 255, 0.6);
             margin-bottom: 20px;
             padding: 20px;
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
-        img {
+        img, video {
             max-width: 100%;
             height: auto;
+        }
+        .small-video {
+            max-width: 600px; /* Ajusta este valor según lo que necesites */
+            height: auto;
+            margin: 0 auto; /* Centra el video */
+            display: block;
         }
         footer {
             text-align: center;
             padding: 10px 0;
-            background: rgba(44, 62, 80, 0.8); /* Fondo oscuro con transparencia */
+            background: rgba(44, 62, 80, 0.8);
             color: white;
-            position: relative;
-            bottom: 0;
             width: 100%;
         }
         .download-link {
             display: inline-block;
             padding: 10px 20px;
-            background-color: #e74c3c; /* Color rojo para los botones de descarga */
-            color: #fff; /* Color blanco para el texto */
+            background-color: #e74c3c;
+            color: #fff;
             text-decoration: none;
             border-radius: 5px;
             font-size: 1.2em;
             margin-top: 10px;
         }
         .download-link:hover {
-            background-color: #c0392b; /* Color rojo más oscuro al pasar el mouse */
-        }
-        #tutorial {
-            background: rgba(224, 224, 224, 0.8); /* Fondo gris con transparencia */
-            padding: 20px;
-            border-radius: 5px;
-            margin-top: 30px;
-        }
-        video {
-            width: 100%;
-            height: auto;
-        }
-        #comentarios {
-            background: rgba(255, 255, 255, 0.6); /* Fondo blanco con transparencia */
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            margin-bottom: 20px;
-        }
-
-        #comentarios h2 {
-            color: #2c3e50;
-        }
-
-        #comentarios label {
-            font-size: 1.2em;
-            margin-bottom: 5px;
-        }
-
-        #comentarios input, #comentarios textarea {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border-radius: 5px;
-            border: 1px solid #ccc;
-        }
-
-        #comentarios button {
-            padding: 10px 20px;
-            background-color: #e74c3c; /* Color rojo */
-            color: white;
-            border: none;
-            border-radius: 5px;
-            font-size: 1.2em;
-        }
-
-        #comentarios button:hover {
-            background-color: #c0392b; /* Color rojo más oscuro */
+            background-color: #c0392b;
         }
     </style>
 </head>
@@ -136,10 +94,11 @@
                 <li><strong>Halo: Combat Evolved</strong> - Un mundo de acción y diversión en el online.</li>
                 <a href="https://www.mediafire.com/file/94tjp1cpa5jc1yy/Halo+CE+-+Neo+Games.rar/file" target="_blank" class="download-link">Descargar desde MediaFire</a>
                 <li><strong>The Witcher 3</strong> - Un RPG épico con una narrativa impresionante.</li>
-                <li><strong>Need for Speed Most Wanted hd </strong> - Contraseña: elenemigos.com.</li>
+                <li><strong>Need for Speed Most Wanted hd</strong> - Contraseña: elenemigos.com.</li>
             </ul>
             <img src="need for speed most wanted.jpeg" alt="Need for Speed Most Wanted">
             <a href="https://www.mediafire.com/file/u46iv5di75ggj9l/Need+for+Speed+MW" target="_blank" class="download-link">Descargar desde MediaFire</a>
+            <a href="https://www.mediafire.com/file/c13a1tgbre7b5u6/NFS+Most+Wanted+by+Ranchoso92.rar/file" target="_blank" class="download-link">del instalador sin codigo</a>
         </section>
         <section id="projects">
             <h2>Proyectos de Videojuegos</h2>
@@ -163,14 +122,14 @@
         <section id="video">
             <h2>Video Tutorial de Halo</h2>
             <p>A continuación, te dejamos un video tutorial sobre cómo instalar y jugar los videojuegos.</p>
-            <video controls>
+            <video controls class="small-video">
                 <source src="tutohalo.mp4" type="video/mp4">
             </video>
         </section>
         <section id="video">
             <h2>Video Tutorial de Need for Speed</h2>
             <p>A continuación, te dejamos un video tutorial sobre cómo instalar y jugar los videojuegos.</p>
-            <video controls>
+            <video controls class="small-video">
                 <source src="tutoneed.mp4" type="video/mp4">
             </video>
         </section>
