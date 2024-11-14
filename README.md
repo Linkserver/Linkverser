@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -8,20 +9,22 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background: url('fondo.jpeg') no-repeat center center fixed; 
+            background-size: cover;
+            color: #333; /* Color oscuro para el texto */
         }
         header {
-            background: #2c3e50;
+            background: rgba(44, 62, 80, 0.8); /* Fondo oscuro con transparencia */
             color: white;
             padding: 20px 0;
             text-align: center;
         }
         nav {
-            background: #34495e;
+            background: rgba(52, 73, 94, 0.8); /* Fondo oscuro con transparencia */
             padding: 10px;
         }
         nav a {
-            color: white;
+            color: #f39c12; /* Color amarillo brillante para los enlaces */
             margin: 0 15px;
             text-decoration: none;
         }
@@ -34,7 +37,7 @@
             margin: auto;
         }
         section {
-            background: white;
+            background: rgba(255, 255, 255, 0.6); /* Fondo blanco con transparencia */
             margin-bottom: 20px;
             padding: 20px;
             border-radius: 5px;
@@ -47,7 +50,7 @@
         footer {
             text-align: center;
             padding: 10px 0;
-            background: #2c3e50;
+            background: rgba(44, 62, 80, 0.8); /* Fondo oscuro con transparencia */
             color: white;
             position: relative;
             bottom: 0;
@@ -56,25 +59,25 @@
         .download-link {
             display: inline-block;
             padding: 10px 20px;
-            background-color: #4CAF50; /* Color de fondo */
-            color: #fff; /* Color del texto */
+            background-color: #e74c3c; /* Color rojo para los botones de descarga */
+            color: #fff; /* Color blanco para el texto */
             text-decoration: none;
             border-radius: 5px;
             font-size: 1.2em;
             margin-top: 10px;
         }
         .download-link:hover {
-            background-color: #45a049; /* Color al pasar el mouse */
+            background-color: #c0392b; /* Color rojo más oscuro al pasar el mouse */
         }
         #tutorial {
-            background: #e0e0e0;
+            background: rgba(224, 224, 224, 0.8); /* Fondo gris con transparencia */
             padding: 20px;
             border-radius: 5px;
             margin-top: 30px;
         }
         video {
-            width: 100%; /* Hace que el video ocupe todo el ancho de la página */
-            height: auto; /* Ajusta la altura proporcionalmente */
+            width: 100%;
+            height: auto;
         }
     </style>
 </head>
@@ -85,8 +88,8 @@
     <nav>
         <a href="#favorites">Mis Juegos Favoritos</a>
         <a href="#projects">Proyectos de Videojuegos</a>
-        <a href="#tutorial">Tutorial de Descarga</a> <!-- Enlace para Tutorial de Descarga -->
-        <a href="#contact">Contacto</a> <!-- Enlace de contacto, al final -->
+        <a href="#tutorial">Tutorial de Descarga</a>
+        <a href="#contact">Contacto</a>
     </nav>
     <main>
         <section id="favorites">
@@ -94,13 +97,11 @@
             <ul>
                 <img src="Halo.jpeg" alt="Halo: Combat Evolved">
                 <li><strong>Halo: Combat Evolved</strong> - Un mundo de acción y diversión en el online.</li>
-                <!-- Botón de descarga con estilo -->
                 <a href="https://www.mediafire.com/file/94tjp1cpa5jc1yy/Halo+CE+-+Neo+Games.rar/file" target="_blank" class="download-link">Descargar desde MediaFire</a>
                 <li><strong>The Witcher 3</strong> - Un RPG épico con una narrativa impresionante.</li>
                 <li><strong>Need for Speed Most Wanted</strong> - Contraseña: elenemigos.com.</li>
             </ul>
             <img src="need for speed most wanted.jpeg" alt="Need for Speed Most Wanted">
-            <!-- Botón de descarga con estilo -->
             <a href="https://www.mediafire.com/file/u46iv5di75ggj9l/Need+for+Speed+MW" target="_blank" class="download-link">Descargar desde MediaFire</a>
         </section>
         <section id="projects">
@@ -112,8 +113,6 @@
                 <li><strong>Proyecto 3:</strong> Un juego de estrategia por turnos.</li>
             </ul>
         </section>
-
-        <!-- Nueva sección de Tutorial de Descarga -->
         <section id="tutorial">
             <h2>Tutorial de Descarga</h2>
             <p>Sigue estos pasos para descargar el archivo correctamente:</p>
@@ -124,24 +123,18 @@
                 <li>¡Listo! Ahora podrás disfrutar del juego.</li>
             </ol>
         </section>
-
-        <!-- Sección de Video -->
         <section id="video">
             <h2>Video Tutorial de Halo</h2>
             <p>A continuación, te dejamos un video tutorial sobre cómo instalar y jugar los videojuegos.</p>
-            <!-- Video Embebido -->
             <video controls>
                 <source src="tutohalo.mp4" type="video/mp4">
-                Tu navegador no soporta el formato de video.
             </video>
         </section>
-
         <section id="contact">
             <h2>Contacto</h2>
             <p>Puedes contactarme a través de mi correo electrónico: moralesjimy29@gmail.com</p>
         </section>
     </main>
-
     <footer>
         <p>&copy; 2024 Mi Página de Videojuegos</p>
     </footer>
