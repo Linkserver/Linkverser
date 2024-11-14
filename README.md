@@ -128,7 +128,6 @@
             <video controls>
                 <source src="tutohalo.mp4" type="video/mp4">
             </video>
-
              </section>
         <section id="video">
             <h2>Video Tutorial de need for speed</h2>
