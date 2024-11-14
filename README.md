@@ -70,7 +70,7 @@
             <h2>juegos del enemigos sin anuncios</h2>
             <ul>
             <img src="Halo.jpeg" alt="Juegos Favoritos">
-                <li><strong>halo: elprimero </strong> - Un mundo de accion y diversion en el online.</li>
+                <li><strong>Halo: Combat Evolved</strong> - Un mundo de accion y diversion en el online.</li>
                
 <html lang="es">
 <head>
