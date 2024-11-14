@@ -128,6 +128,14 @@
             <video controls>
                 <source src="tutohalo.mp4" type="video/mp4">
             </video>
+ </ol>
+             </section>
+        <section id="video">
+            <h2>Video Tutorial de need for speed</h2>
+            <p>A continuación, te dejamos un video tutorial sobre cómo instalar y jugar los videojuegos.</p>
+            <video controls>
+                <source src="tutohalo.mp4" type="video/mp4">
+            </video>
         </section>
         <section id="contact">
             <h2>Contacto</h2>
