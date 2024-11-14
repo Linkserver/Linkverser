@@ -131,6 +131,13 @@
             <video controls class="small-video">
                 <source src="tutoneed.mp4" type="video/mp4">
             </video>
+             </section>
+        <section id="video">
+            <h2>Video Tutorial de Need for Speed</h2>
+            <p>A continuación, te dejamos un video tutorial sobre cómo instalar y jugar los videojuegos.</p>
+            <video controls class="small-video">
+                <source src="tutoneed.mp4" type="video/mp4">
+            </video>
         </section>
         <section id="contact">
             <h2>Contacto</h2>
