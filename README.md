@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -73,6 +72,10 @@
             border-radius: 5px;
             margin-top: 30px;
         }
+        video {
+            width: 100%; /* Hace que el video ocupe todo el ancho de la página */
+            height: auto; /* Ajusta la altura proporcionalmente */
+        }
     </style>
 </head>
 <body>
@@ -82,8 +85,8 @@
     <nav>
         <a href="#favorites">Mis Juegos Favoritos</a>
         <a href="#projects">Proyectos de Videojuegos</a>
-        <a href="#contact">Contacto</a>
-        <a href="#tutorial">Tutorial de Descarga</a> <!-- Nuevo enlace para Tutorial de Descarga -->
+        <a href="#tutorial">Tutorial de Descarga</a> <!-- Enlace para Tutorial de Descarga -->
+        <a href="#contact">Contacto</a> <!-- Enlace de contacto, al final -->
     </nav>
     <main>
         <section id="favorites">
@@ -109,10 +112,6 @@
                 <li><strong>Proyecto 3:</strong> Un juego de estrategia por turnos.</li>
             </ul>
         </section>
-        <section id="contact">
-            <h2>Contacto</h2>
-            <p>Puedes contactarme a través de mi correo electrónico: moralesjimy29@gmail.com</p>
-        </section>
 
         <!-- Nueva sección de Tutorial de Descarga -->
         <section id="tutorial">
@@ -123,77 +122,26 @@
                 <li>Una vez descargado, abre el archivo comprimido (si es necesario) en tu dispositivo.</li>
                 <li>Realiza la instalación o sigue las instrucciones del archivo.</li>
                 <li>¡Listo! Ahora podrás disfrutar del juego.</li>
-                <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página de Videojuegos</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background: #2c3e50;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-        }
-        nav {
-            background: #34495e;
-            padding: 10px;
-        }
-        nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        main {
-            padding: 20px;
-            max-width: 800px;
-            margin: auto;
-        }
-        section {
-            background: white;
-            margin-bottom: 20px;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-        footer {
-            text-align: center;
-            padding: 10px 0;
-            background: #2c3e50;
-            color: white;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-        video {
-            width: 100%; /* Hace que el video ocupe todo el ancho de la página */
-            height: auto; /* Ajusta la altura proporcionalmente */
-        }
-    </style>
+            </ol>
+        </section>
 
-    <main>
+        <!-- Sección de Video -->
         <section id="video">
-            <h2>Video Tutorial de halo</h2>
+            <h2>Video Tutorial de Halo</h2>
             <p>A continuación, te dejamos un video tutorial sobre cómo instalar y jugar los videojuegos.</p>
             <!-- Video Embebido -->
             <video controls>
                 <source src="tutohalo.mp4" type="video/mp4">
-            </ol>
+                Tu navegador no soporta el formato de video.
+            </video>
+        </section>
+
+        <section id="contact">
+            <h2>Contacto</h2>
+            <p>Puedes contactarme a través de mi correo electrónico: moralesjimy29@gmail.com</p>
         </section>
     </main>
+
     <footer>
         <p>&copy; 2024 Mi Página de Videojuegos</p>
     </footer>
