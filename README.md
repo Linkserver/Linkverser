@@ -140,7 +140,6 @@
             </ul>
             <img src="need for speed most wanted.jpeg" alt="Need for Speed Most Wanted">
             <a href="https://www.mediafire.com/file/u46iv5di75ggj9l/Need+for+Speed+MW" target="_blank" class="download-link">Descargar desde MediaFire</a>
-            <li><strong>Need for Speed Most Wanted</strong> - ESTE ENLACE SOLO ES EL INSTALADOR.</li>
         </section>
         <section id="projects">
             <h2>Proyectos de Videojuegos</h2>
