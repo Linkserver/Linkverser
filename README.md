@@ -69,7 +69,39 @@
         <section id="favorites">
             <h2>juegos del enemigos sin anuncios</h2>
             <ul>
+            <img src="Halo.jpeg" alt="Juegos Favoritos">
                 <li><strong>halo: elprimero </strong> - Un mundo de accion y diversion en el online.</li>
+               
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descarga desde MediaFire</title>
+    <style>
+        .download-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Color de fondo */
+            color: #fff; /* Color del texto */
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+        }
+        .download-link:hover {
+            background-color: #45a049; /* Color al pasar el mouse */
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Descarga el archivo</h2>
+    <p>Haz clic en el botón a continuación para descargar el archivo desde MediaFire.</p>
+    
+    <a href="[https://www.mediafire.com/tu-enlace-de-descarga](https://www.mediafire.com/file/94tjp1cpa5jc1yy/Halo+CE+-+Neo+Games.rar/file)" target="_blank" class="download-link">Descargar desde MediaFire</a>
+
+</body>
+</html>
+
                 <li><strong>The Witcher 3</strong> - Un RPG épico con una narrativa impresionante.</li>
                 <li><strong>need for speed most wanted</strong> -contraseña -elenemigos.com.</li>
             </ul>
