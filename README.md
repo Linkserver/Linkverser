@@ -92,7 +92,6 @@
                 <img src="Halo.jpeg" alt="Halo: Combat Evolved">
                 <li><strong>Halo: Combat Evolved</strong> - Un mundo de acción y diversión en el online.</li>
                 <a href="https://www.mediafire.com/file/94tjp1cpa5jc1yy/Halo+CE+-+Neo+Games.rar/file" target="_blank" class="download-link">Descargar desde MediaFire</a>
-                <li><strong>The Witcher 3</strong> - Un RPG épico con una narrativa impresionante.</li>
                 <li><strong>Need for Speed Most Wanted hd</strong> - Contraseña: elenemigos.com.</li>
             </ul>
             <img src="need for speed most wanted.jpeg" alt="Need for Speed Most Wanted">
